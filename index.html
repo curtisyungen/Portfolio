@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-script-type" content="text/javascript">
+    <meta http-equiv="content-style-type" content="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Curtis Yungen">
+    <meta property='og:title' content='Curtis Yungen Online Resume' />
+    <meta property='og:image'
+        content='https://github.com/curtisyungen/Portfolio/blob/master/assets/images/curtisyungen.png' />
+    <meta property='og:description'
+        content='This is my online resume. It details my work and educational backgrounds, and also showcases a few of my recent coding projects.' />
+    <meta name="keywords"
+        content="Curtis Yungen, resume, Full Stack Web Developer, Boeing, Engineer, Front End, Back End">
+
+    <title>Curtis Yungen</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/cy.png">
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/info-boxes.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/blue-angels.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/rocket.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/recentProjects.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/media-queries.css">
+
+    <!-- jQuery -->
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script
+    src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+    integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Main Jumbotron -->
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container" id="mainHeader">
+                <h1 class="display-3" id="mainName"><strong>Curtis Yungen</strong></h1>
+                <p class="lead" id="tagline">Full-Stack Web Developer</p>
+                <a href="https://github.com/curtisyungen/Portfolio/blob/master/curtisYungenResume.pdf"
+                    target="_blank">
+                    <button class="btn btn-outline-light btn-sm resumeBtnTitle">View Resume</button>
+                </a>
+            </div>
+            <div id="overlay"></div>
+            <div id="stars"></div>
+            <div id="quote">Thank you for visiting!</div>
+        </div>
+    </header>
+
+    <!-- Arrow -->
+    <div class="navbar-item" id="navbar-arrow" data-title="arrow">
+        <i class="fas fa-chevron-down fa-2x"></i>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="row" id="contactInfo">
+        <div class="col-lg-12">
+            <a href="https://github.com/curtisyungen/" target="_blank"><i
+                    class="fab fa-github-square fa-3x icon"></i></a>
+            <a href="https://www.linkedin.com/in/curtisyungen/" target="_blank"><i
+                    class="fab fa-linkedin fa-3x icon"></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=curtisyungen@gmail.com" target="_blank"><i
+                    class="fas fa-envelope fa-3x icon"></i></a>
+            <a href="https://www.hackerrank.com/curtisyungen?hr_r=1" target="_blank"><i
+                class="fab fa-hackerrank fa-3x icon"></i></a>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- About Me -->
+    <div class="container" id="aboutMeContainer">
+
+        <div class="row sectionTitle">
+            <h4>About Me</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="description" id="aboutMe">
+                    My name is Curtis. I grew up in Oregon and have lived in Seattle for
+                    over six years. I'm always
+                    trying
+                    something new and challenging whether it's engineering, public speaking, real estate, or computer
+                    programming.
+                    When I'm not studying I'm either running, playing music, or practicing coding. I love
+                    to
+                    learn new skills and chase new goals.
+                    Although I take great pride in being a Boeing engineer, I've recently discovered my true passion
+                    lies in web development.
+                    I'm excited to apply my technical aptitude and staunch work ethic to the tech industry...perhaps on
+                    your project!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container col-lg-12" id="portfolioContainer">
+        <div class="row" id="portfolio">
+            <!-- Congo -->
+            <div class="project" id="groceryList">
+                <div class="projHeader">
+                    <img class="projImg" src="./assets/images/congo-logo.png">
+                    <h4 class="projTitle">Congo Book Sales</h4>
+                    <div class="projLinks">
+                        <a href="https://congobooksales.herokuapp.com/" target="_blank">Project</a>
+                        <a class="codeLink" href="https://github.com/curtisyungen/congo" target="_blank">Code</a>
+                    </div>
+                    <button 
+                        class="btn btn-outline-dark btn-sm projShowMore" 
+                        data-status="more" 
+                        data-label="congo"
+                    >
+                        Show more
+                    </button>
+                </div>
+
+                <!-- Congo More Info -->
+                <div class="moreInfo" id="congo">
+                    <div class="projDetails">
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Description</h4>
+                            Congo is a website for selling my book collection.
+                        </div>
+
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Features</h4>
+                            <div class="projFeatures">
+                                <ul>
+                                    <li>Secure user accounts</li>
+                                    <li>Encrypted passwords</li>
+                                    <li>Shopping cart</li>
+                                    <li>Order history</li>
+                                </ul>
+                                <ul>
+                                    <li>Checkout securely via PayPal</li>
+                                    <li>View book details and descriptions</li>
+                                    <li>Fully mobile responsive</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Technology</h4>
+                            <div class="techList">
+                                <span class="technology">MySQL</span>
+                                <span class="technology">Express.js</span>
+                                <span class="technology">ReactJS</span>
+                                <span class="technology">Node.js</span>
+                                <span class="technology">Bcrypt</span>
+                                <span class="technology">PayPal API</span>
+                                <span class="technology">Google Books API</span>
+                            </div>
+                        </div>
+
+                        <div class="projScreenshotSection">
+                            <h4 class="projSubTitle">Screenshots</h4>
+                            <div class="projScreenshots">
+                                <img class="screenshot" src="./assets/images/congo_screenshot1.png" alt="Congo screenshot" />
+                                <img class="screenshot" src="./assets/images/congo_screenshot2.png" alt="Congo screenshot"/>
+                                <img class="screenshot" src="./assets/images/congo_screenshot3.png" alt="Congo screenshot"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outwork -->
+            <div class="project" id="groceryList">
+                <div class="projHeader">
+                    <img class="projImg" src="./assets/images/outwork-logo.png">
+                    <h4 class="projTitle">Outwork Fitness Tracker</h4>
+                    <div class="projLinks">
+                        <a href="https://outwork-cjy.herokuapp.com/" target="_blank">Project</a>
+                        <a class="codeLink" href="https://github.com/curtisyungen/outwork" target="_blank">Code</a>
+                    </div>
+                    <button 
+                        class="btn btn-outline-dark btn-sm projShowMore" 
+                        data-status="more" 
+                        data-label="outwork"
+                    >
+                        Show more
+                    </button>
+                </div>
+
+                <!-- Outwork More Info -->
+                <div class="moreInfo" id="outwork">
+                    <div class="projDetails">
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Description</h4>
+                            <div class="projFeatures">
+                                Outwork is a website on which users can log running, biking, swimming, or lifting workouts,
+                                track metrics, and compete for titles.
+                            </div>
+                        </div>
+
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Features</h4>
+                            <div class="projFeatures">
+                                <ul>
+                                    <li>Secure user accounts</li>
+                                    <li>Encrypted passwords</li>
+                                    <li>Calculated metrics</li>
+                                </ul>
+                                <ul>
+                                    <li>Randomly generated workouts</li>
+                                    <li>Workout summaries</li>
+                                    <li>Hall of Fame awards</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Technology</h4>
+                            <div class="techList">
+                                <span class="technology">MySQL</span>
+                                <span class="technology">Express.js</span>
+                                <span class="technology">ReactJS</span>
+                                <span class="technology">Node.js</span>
+                                <span class="technology">Bcrypt</span>
+                                <span class="technology">Bootstrap</span>
+                                <span class="technology">D3 Analytics</span>
+                            </div>
+                        </div>
+
+                        <div class="projScreenshotSection">
+                            <h4 class="projSubTitle">Screenshots</h4>
+                            <div class="projScreenshots">
+                                <img class="screenshot" src="./assets/images/outwork_screenshot1.png" alt="Outwork screenshot" />
+                                <img class="screenshot" src="./assets/images/outwork_screenshot2.png" alt="Outwork screenshot"/>
+                                <img class="screenshot" src="./assets/images/outwork_screenshot3.png" alt="Outwork screenshot"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conway -->
+            <div class="project" id="groceryList">
+                <div class="projHeader">
+                    <img class="projImg" src="./assets/images/conway.png">
+                    <h4 class="projTitle">Conway's Game of Life</h4>
+                    <div class="projLinks">
+                        <a href="https://conway-cjy.herokuapp.com/" target="_blank">Project</a>
+                        <a class="codeLink" href="https://github.com/curtisyungen/conway" target="_blank">Code</a>
+                    </div>
+                    <button 
+                        class="btn btn-outline-dark btn-sm projShowMore" 
+                        data-status="more" 
+                        data-label="conway"
+                    >
+                        Show more
+                    </button>
+                </div>
+
+                <!-- Conway More Info -->
+                <div class="moreInfo" id="conway">
+                    <div class="projDetails">
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Description</h4>
+                            <div>
+                                A simulation based on an initial state and four simple rules governing
+                                its evolution over time.
+                            </div>
+                        </div>
+
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Features</h4>
+                            <div class="projFeatures">
+                                <ul>
+                                    <li>Large 25x25 grid</li>
+                                    <li>Pre-loaded patterns</li>
+                                    <li>Color themes</li>
+                                    <li>Fast/slow speed options</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="projDetailsSection">
+                            <h4 class="projSubTitle">Technology</h4>
+                            <div class="techList">
+                                <span class="technology">Express.js</span>
+                                <span class="technology">ReactJS</span>
+                                <span class="technology">Node.js</span>
+                            </div>
+                        </div>
+
+                        <div class="projScreenshotSection">
+                            <h4 class="projSubTitle">Screenshots</h4>
+                            <div class="projScreenshots">
+                                <img class="screenshot" src="./assets/images/conway_screenshot1.png" alt="Conway screenshot" />
+                                <img class="screenshot" src="./assets/images/conway_screenshot2.png" alt="Conway screenshot" />
+                                <img class="screenshot" src="./assets/images/conway_screenshot3.png" alt="Conway screenshot"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container" id="footerContainer">
+        <div class="row" id="footer">
+            <div id="footerText">
+                <h1 id="contact">Contact</h1>
+                <p class="lead">curtisyungen@gmail.com</p>
+            </div>
+
+            <div class="col-lg-12">
+                <a href="https://github.com/curtisyungen/" target="_blank"><i
+                        class="fab fa-github-square fa-3x icon"></i></a>
+                <a href="https://www.linkedin.com/in/curtisyungen/" target="_blank"><i
+                        class="fab fa-linkedin fa-3x icon"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=curtisyungen@gmail.com" target="_blank"><i
+                        class="fas fa-envelope fa-3x icon"></i></a>
+                <a href="https://www.hackerrank.com/curtisyungen?hr_r=1" target="_blank"><i
+                    class="fab fa-hackerrank fa-3x icon"></i></a>
+                <a href="https://github.com/curtisyungen/Portfolio/blob/master/curtisYungenResume.pdf"
+                    target="_blank">
+                    <button class="btn btn-outline-light btn-sm resumeBtn">View Resume</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/javascript/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/javascript/navbar.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>
