@@ -58,6 +58,7 @@ p {
   margin-top: 200px;
   min-height: 0px !important;
   padding: 0;
+  text-align: center;
   width: 100%;
   z-index: 99;
 }
