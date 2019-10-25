@@ -49,6 +49,20 @@ p {
 
 /* IDENTIFIERS */
 
+#backToTop {
+  color: darkgray;
+  cursor: pointer;
+  display: none;
+  font-size: 13px;
+  height: 0px;
+  margin-bottom: -5px;
+  margin-top: 200px;
+  min-height: 0px !important;
+  padding: 0;
+  width: 100%;
+  z-index: 99;
+}
+
 #contactInfo {
     background: rgba(0, 0, 255, 0.178);
     min-height: 0px;
