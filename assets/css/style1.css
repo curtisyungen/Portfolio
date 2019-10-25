@@ -52,7 +52,6 @@ p {
 #backToTop {
   color: darkgray;
   cursor: pointer;
-  display: none;
   font-size: 13px;
   height: 0px;
   margin-bottom: -5px;
