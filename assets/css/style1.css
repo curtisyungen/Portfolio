@@ -189,73 +189,9 @@ p {
     width: 100%;
 }
 
-.conwayLink {
-    color: orange;
-    font-size: 14px !important;
-}
-
 .description {
     font-size: 14px;
     width: 100%;
-}
-
-.educationInfo {
-    bottom: 0;
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-
-.fa-plane {
-    color: rgb(0, 57, 166);
-    display: inline-block;
-    margin-right: 7px;
-    transform: rotate(270deg);
-}
-
-.fact {
-    border-radius: 4px;
-    margin-bottom: 2px;
-    margin-right: 2px;
-    padding: 10px;
-    text-align: center;
-    width: 33%;
-}
-
-.fact:hover {
-    background: rgb(214, 229, 255);
-    color: rgb(0, 57, 166);
-    transition: 0.5s;
-}
-
-.factIcon {
-    margin-bottom: 8px;
-    position: relative;
-}
-
-.factIconJuggling {
-    margin-left: -20px;
-}
-
-.factIcon div {
-    display: inline-block;
-    position: absolute;
-}
-
-.fact i {
-    height: 35px;
-    margin: 0px auto;
-    max-height: 35px;
-}
-
-.fact p {
-    color: black;
-    display: inline-block;
-    font-weight: 400;
-}
-
-.funFacts {
-    display: flex;
-    flex-direction: row;
 }
 
 .icon {
@@ -271,27 +207,6 @@ p {
     display: inline-block;
     margin: 10px 0px 0px 0px;
     width: 100%;
-}
-
-.jobDetails {
-    float: right;
-    font-size: 12px;
-    margin-top: -5px;
-    text-align: right;
-}
-
-.juggleDesc {
-    margin-top: 35px;
-}
-
-.jugglingVidBtn {
-    color: blue;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.jugglingVidBtn:hover {
-    text-decoration: none;
 }
 
 .jumbotron {
@@ -338,10 +253,6 @@ p {
     display: none;
     font-size: 14px;
     margin-bottom: 5px;
-}
-
-.pastSection {
-    height: 130px;
 }
 
 .resumeBtn, .resumeBtn a {
@@ -391,10 +302,4 @@ p {
     cursor: pointer;
     font-size: 14px;
     /* position: absolute; */
-}
-
-.workHeader {
-    display: block;
-    height: 130px;
-    position: relative;
 }
