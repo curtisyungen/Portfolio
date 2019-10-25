@@ -50,16 +50,16 @@ p {
 /* IDENTIFIERS */
 
 #backToTop {
-  color: darkgray;
-  cursor: pointer;
-  font-size: 13px;
-  height: 0px;
-  margin-bottom: -5px;
-  min-height: 0px !important;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  z-index: 99;
+    color: darkgray;
+    cursor: pointer;
+    font-size: 13px;
+    height: 0px;
+    margin-bottom: -5px;
+    min-height: 0px !important;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
 }
 
 #contactInfo {
