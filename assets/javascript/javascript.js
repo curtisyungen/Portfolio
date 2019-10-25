@@ -39,30 +39,6 @@ function showMore() {
     }
 }
 
-// TOASTMASTERS: DEFINE 'OFFICIAL CLUB'
-
-$("#definition").hover(function () {
-    $("#officialClub").animate({
-        opacity: 1
-    }, 500);
-}, function () {
-    $("#officialClub").animate({
-        opacity: 0
-    }, 500)
-});
-
-// PROFILE IMAGE HOVER EFFECT
-
-$("#profileImg").on({
-    mouseenter: function() {
-        $(this).css("border", "4px solid rgb(0, 57, 166)");
-    },
-
-    mouseout: function() {
-        $(this).css("border", "1px solid darkgray");
-    }
-})
-
 
 
 
