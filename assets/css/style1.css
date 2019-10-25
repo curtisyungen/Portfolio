@@ -344,14 +344,14 @@ p {
     height: 130px;
 }
 
-.resumeBtn {
+.resumeBtn, .resumeBtn a {
     display: block;
     margin: 30px auto;
     text-decoration: none;
     z-index: 99;
 }
 
-.resumeBtn:hover {
+.resumeBtn:hover, .resumeBtn a:hover {
     text-decoration: none;
 }
 
